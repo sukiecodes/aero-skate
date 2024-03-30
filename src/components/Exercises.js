@@ -3,8 +3,8 @@ import React from 'react';
 function Exercises() {
     return (
         <div>
-          <h1>Welcome to the Exercise Catalog!</h1>
-          <p>This is the main content of the catalog.</p>
+          <h1>Breathing Exercise Catalog</h1>
+          <p>n/a</p>
         </div>
       );
 }

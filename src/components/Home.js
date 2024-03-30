@@ -3,8 +3,8 @@ import React from 'react';
 function HomePage() {
     return (
         <div>
-          <h1>Welcome to the Home Page!</h1>
-          <p>This is the main content of the Home Page.</p>
+          <h1>Welcome to AeroSkate ⛸️</h1>
+          <p>Empower Your Lungs, Excel on Ice: AeroSkate - Elevate Your Respiratory Performance!</p>
         </div>
       );
 }
