@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './components/Home';
-import Exercises from './components/Exercises';
+import ExerciseList from './components/ExerciseList';
 import Resources from './components/Resources';
 import About from './components/About';
 
@@ -28,7 +27,7 @@ function App() {
         </nav>
         <Routes>
           <Route path="/" element={<HomePage/>} />
-          <Route path="/exercises" element={<Exercises/>} />
+          <Route path="/exercises" element={<ExerciseList/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/resources" element={<Resources/>} />
         </Routes>
