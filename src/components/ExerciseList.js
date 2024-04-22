@@ -61,7 +61,7 @@ const techniques = [
 function ExerciseList() {
   const listTechniques = techniques.map(technique => 
     <div class="grid">
-      <div id={technique.id}>
+      <div id={technique.id} className = "technique-id">
         <h2>{technique.name}</h2>
           <div class="stepsGrid">
             {technique.steps.map(step => <li>{step}</li>)}

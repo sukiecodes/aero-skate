@@ -1,17 +1,24 @@
 .exercises {
     padding: 20px; 
+    justify-content: center;
 }
 
 .grid {
     display: grid;
-    grid-template: 1fr / 1fr;
     place-items: center;
     text-align: left;
+    float: left;
+    margin-left: 48px;
+    margin-bottom: 10px;
 }
 
 .stepsGrid {
     display: grid;
     grid-template: 1fr / 1fr;
     text-align: left;
+    margin-right: 200px;
 }
 
+.technique-id {
+    float: center;
+}
