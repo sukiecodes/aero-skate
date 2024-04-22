@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Resources() {
+function Research() {
     return (
         <div>
-          <h1>Resources</h1>
+          <h1>Research</h1>
           <p>n/a</p>
         </div>
       );
 }
 
-export default Resources;
+export default Research;

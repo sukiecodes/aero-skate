@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './components/Home';
 import ExerciseList from './components/ExerciseList';
-import Resources from './components/Resources';
+import Research from './components/Research';
 import About from './components/About';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
               <Link to="/exercises">Exercises</Link>
             </li>
             <li>
-              <Link to="/resources">Resources</Link>
+              <Link to="/research">Research</Link>
             </li>
           </ul>
         </nav>
@@ -29,7 +29,7 @@ function App() {
           <Route path="/" element={<HomePage/>} />
           <Route path="/exercises" element={<ExerciseList/>} />
           <Route path="/about" element={<About/>} />
-          <Route path="/resources" element={<Resources/>} />
+          <Route path="/research" element={<Research/>} />
         </Routes>
       </div>
     </Router>
